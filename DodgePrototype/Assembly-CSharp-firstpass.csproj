@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8D00A645-DEDE-57D3-1D4E-81E2D81A3B55}</ProjectGuid>
+    <ProjectGuid>{A03A88D1-04BC-B23F-2D12-406FC050593F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -54,6 +54,7 @@
      <None Include="Assets\External Libraries\VRTK\Scripts\Shaders\UIOverlay.shader" />
      <None Include="Assets\External Libraries\VRTK\Scripts\Shaders\VRTK_OutlineBasic.shader" />
      <None Include="Assets\External Libraries\VRTK\Scripts\Shaders\AdaptiveQualityDebugVisualization.shader" />
+     <None Include="Assets\Art\Materials\Velvet\Velvet.shader" />
      <None Include="Assets\External Libraries\SteamVR\Resources\SteamVR_Overlay.shader" />
      <None Include="Assets\External Libraries\SteamVR\Resources\SteamVR_Blit.shader" />
      <None Include="Assets\External Libraries\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
@@ -72,7 +73,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/Michael Brown/Documents/TheDangerZone/DodgePrototype/Assets/Plugins/Pathfinding.JsonFx.dll</HintPath>
+ <HintPath>C:/Users/Cameron McPherson/Documents/TheDangerZone/Obviously Games - 7th February/Assets/Plugins/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
