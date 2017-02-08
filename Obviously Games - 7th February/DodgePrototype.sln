@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DodgePrototype.CSharp.Plugins", "DodgePrototype.CSharp.Plugins.csproj", "{6B6A58D2-C8E0-56E7-F3CE-65A6EECB9CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DodgePrototype.CSharp", "DodgePrototype.CSharp.csproj", "{3CF8BFC8-C077-030C-FD64-4F9F425344E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DodgePrototype.CSharp.Editor", "DodgePrototype.CSharp.Editor.csproj", "{6262CFB2-5C2A-2AE5-0094-8CF92EC7631C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B6A58D2-C8E0-56E7-F3CE-65A6EECB9CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6A58D2-C8E0-56E7-F3CE-65A6EECB9CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6A58D2-C8E0-56E7-F3CE-65A6EECB9CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6A58D2-C8E0-56E7-F3CE-65A6EECB9CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF8BFC8-C077-030C-FD64-4F9F425344E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF8BFC8-C077-030C-FD64-4F9F425344E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF8BFC8-C077-030C-FD64-4F9F425344E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF8BFC8-C077-030C-FD64-4F9F425344E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6262CFB2-5C2A-2AE5-0094-8CF92EC7631C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6262CFB2-5C2A-2AE5-0094-8CF92EC7631C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6262CFB2-5C2A-2AE5-0094-8CF92EC7631C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6262CFB2-5C2A-2AE5-0094-8CF92EC7631C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
