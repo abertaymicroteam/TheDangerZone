@@ -9,17 +9,19 @@ using System.Collections;
 
 public class SpawnerRotation : MonoBehaviour {
 
-
 	public float rotation; 
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start () 
+	{
+
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	 //rotate all the spawners in the scene around y axis at 0,0
+	void Update () 
+	{
+		//rotate all the spawners in the scene around y axis at 0,0
 		transform.RotateAround (transform.position, Vector3.up, rotation * Time.deltaTime);
+
 	}
 }

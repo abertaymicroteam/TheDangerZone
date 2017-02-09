@@ -17,7 +17,6 @@ public class SetRotation : MonoBehaviour {
 	public float opp, adj,hyp;	//variables for calculations
 	public float step;			//movement speed reduced to frames
 
-
 	// Use this for initialization
 	void Start () {
 
@@ -28,7 +27,8 @@ public class SetRotation : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 
 		//update target location
 		target = player.transform;
@@ -42,7 +42,8 @@ public class SetRotation : MonoBehaviour {
 		targetDir = target.position - transform.position;
 
 		//if the next projectile this turret shoots is arced increase y rotation by 45 degrees
-		if (GetComponentInChildren<Spawner> ().nextProjectile > 0) {
+		if (GetComponentInChildren<Spawner> ().nextProjectile > 0) 
+		{
 			targetDir.y = adj * Mathf.Tan (45 * Mathf.Deg2Rad); 
 		}
 

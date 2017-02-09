@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2AE0DD4-A74C-3DD2-4638-95204359379E}</ProjectGuid>
+    <ProjectGuid>{FF16A710-C825-034C-F023-030FF0003196}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -99,7 +99,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/Cameron McPherson/Documents/TheDangerZone/Obviously Games - 7th February/Assets/Plugins/Pathfinding.JsonFx.dll</HintPath>
+ <HintPath>C:/Users/Cameron McPherson/Documents/TheDangerZone/DodgePrototype/Assets/Plugins/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -116,9 +116,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A03A88D1-04BC-B23F-2D12-406FC050593F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{8D00A645-DEDE-57D3-1D4E-81E2D81A3B55}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{801C3569-0F65-7D5A-123A-E000A57EB477}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{8937FA8B-AB1B-3B52-8CD9-1C57E9A789C5}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

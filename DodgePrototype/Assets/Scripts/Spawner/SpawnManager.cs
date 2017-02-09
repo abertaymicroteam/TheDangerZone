@@ -14,7 +14,8 @@ public class SpawnManager : MonoBehaviour {
 	Spawner[] spawners;				  //avaliable spawners
 	private int spawnerNo;			  //the spawner selected at random
 
-
+	// Game manager script
+	private GameManager gMan;
 
 	void Start () {
 
@@ -26,6 +27,7 @@ public class SpawnManager : MonoBehaviour {
 		//place projectlie types onto array
 		spawners = FindObjectsOfType (typeof(Spawner)) as Spawner[];
 
+		gMan = GameObject.Find ("Game Manager").GetComponent<GameManager> ();
 	}
 
 	//set the timer to count in real time when it reaches 0 spawn a projectile
@@ -36,12 +38,17 @@ public class SpawnManager : MonoBehaviour {
 		SpawnDelay -= Time.deltaTime;
 
 		//when timer is 0 
-		if (SpawnDelay <= 0) {
-			//select random spawner
-			spawnerNo = Random.Range (0, spawners.Length);
-			//if the spawner isnt currently firing, tell it to fire
-			if (spawners [spawnerNo].fire == false) {
-				spawners [spawnerNo].Spawn ();
+		if (SpawnDelay <= 0) 
+		{
+			if (gMan.currentState == GameManager.GAMESTATE.PLAY) 
+			{
+				//select random spawner
+				spawnerNo = Random.Range (0, spawners.Length);
+				//if the spawner isnt currently firing, tell it to fire
+				if (spawners [spawnerNo].fire == false) 
+				{
+					spawners [spawnerNo].Spawn ();
+				}
 			}
 			//reset timer
 			SpawnDelay = setTime;
